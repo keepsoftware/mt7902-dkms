@@ -1,5 +1,5 @@
-BASE_NAME := mt7902
-KERNEL_SOURCE_DIR = /lib/modules/`$(shell uname -r)`/build
+BASE_NAME := mt7922
+KERNEL_SOURCE_DIR = /lib/modules/$(shell uname -r)/build
 
 obj-m := ???
 
